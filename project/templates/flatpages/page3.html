@@ -1,0 +1,12 @@
+{% extends 'flatpages/page1.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+ 
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+<font size="5" color= "FF0000" face = "Courier">{{ flatpage.content }}</font>
+<font size="10" color= "00FF00" face = "Arial">{{ flatpage.content }}</font>
+{% endblock content %}
